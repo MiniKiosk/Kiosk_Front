@@ -28,6 +28,22 @@
   color: #61dafb;
 }
 
+.voice-control {
+  width: 100px;
+  height: 100px;
+  background-color: #ff4b4b;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.voice-control:hover {
+  background-color: #ff2a2a;
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
